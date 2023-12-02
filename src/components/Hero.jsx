@@ -3,23 +3,27 @@ import { discount, robot } from "../../assets";
 export default function Hero() {
   return (
     <section className="mx-auto flex flex-row justify-center w-[70%] ">
-      <div>
-        <div>
-          <p>
-            <img src={discount} alt="" />
-            <span>
-              <span>20%</span>
-              <span>
-                Discount for <span>1 Month</span> Account
-              </span>
+      <div className="flex flex-col items-start justify-center">
+        <div className=" overflow-hidden bg-discount-gradient rounded-[10px] px-[16px] py-[6px] relative flex justify-around gap-[10px]">
+          <img src={discount} alt="" />
+          <span className="text-[18px] leading-[30.8px] font-poppins">
+            <span className="text-white">20%</span>
+            <span className="text-white/70">
+              Discount for <span className="text-white">1 Month</span> Account
             </span>
-          </p>
+          </span>
         </div>
-        <div>
-          <p>
-            The Next <span>Generation</span>
+        <div className="flex flex-row w-full justify-between items-center ">
+          <p className="text-[72px] leading-[100.8px] text-white font-poppins font-semibold">
+            The Next <span className="text-gradient">Generation</span>
           </p>
-          <div>Get Started</div>
+          <div className="text-gradient text-[18px] font-medium  w-[140px] h-[140px] ">
+            <p className="w-full h-full flex flex-col justify-center items-center font-poppins rounded-full border border-secondary">
+              <span>Get</span>
+              <br />
+              <span>started</span>
+            </p>
+          </div>
         </div>
         <p>Payment Method</p>
         <p>
