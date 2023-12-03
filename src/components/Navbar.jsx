@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export default function Navbar() {
   const [active, setActive] = useState("Home");
-  // const [isMenuOpen, setIsMenuOpen] = useState(true);
+  // const [isMenuOpen, setIsMenuOpen] = useState(true)
 
   const handleChange = (id) => {
     setActive(id);
