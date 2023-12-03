@@ -19,6 +19,14 @@
       #33bbcf 90.29%
     );
   }
+  .bg-black-gradient {
+    background: linear-gradient(
+      144.39deg,
+      #ffffff -278.56%,
+      #6d6d6d -78.47%,
+      #11101d 91.61%
+    );
+  }
 }
 
 .text-gradient {
@@ -37,15 +45,6 @@
   text-fill-color: transparent;
 }
 
-.bg-black-gradient {
-  background: linear-gradient(
-    144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
-  );
-}
-
 .bg-black-gradient-2 {
   background: linear-gradient(
     -168.39deg,
@@ -61,10 +60,6 @@
     rgba(255, 255, 255, 0) -341.94%,
     #14101d 95.11%
   );
-}
-
-.bg-discount-gradient {
-  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
 }
 
 .box-shadow {
