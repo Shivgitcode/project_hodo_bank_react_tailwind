@@ -1,6 +1,9 @@
 import Stats from "./Stats";
 import Bussiness from "./Bussiness";
 import Billing from "./Billing";
+import CardsDeal from "./CardsDeal";
+import Feedback from "./Feedback";
+import Client from "./Clients";
 
 export default function Information() {
   return (
@@ -8,6 +11,9 @@ export default function Information() {
       <Stats></Stats>
       <Bussiness></Bussiness>
       <Billing></Billing>
+      <CardsDeal></CardsDeal>
+      <Feedback></Feedback>
+      <Client></Client>
     </div>
   );
 }

@@ -6,11 +6,11 @@ const Billing = () => {
       <div className="flex-1">
         <img src={bill} alt="" />
       </div>
-      <div className="text-white flex flex-col justify-center flex-1">
-        <h1 className="font-semibold font-poppins text-[48px] leading-[76px] w-[80%]">
+      <div className="flex flex-col justify-center flex-1">
+        <h1 className="text-white font-semibold font-poppins text-[48px] leading-[76px] w-[80%]">
           Easily control your billing & invoicing
         </h1>
-        <div className="text-[18px] text-white/70 leading-[30.8px] mt-[20px] max-w-[470px]">
+        <div className="text-[18px] text-white/70 leading-[30.8px] mt-[20px] max-w-[470px] font-normal font-poppins">
           Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
           aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
           placerat.
