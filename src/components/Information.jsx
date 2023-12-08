@@ -5,6 +5,7 @@ import CardsDeal from "./CardsDeal";
 import Feedback from "./Feedback";
 import Client from "./Clients";
 import CTA from "./CTA";
+import Footer from "./footer";
 
 export default function Information() {
   return (
@@ -16,6 +17,7 @@ export default function Information() {
       <Feedback></Feedback>
       <Client></Client>
       <CTA></CTA>
+      <Footer></Footer>
     </div>
   );
 }

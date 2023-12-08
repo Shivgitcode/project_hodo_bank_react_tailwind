@@ -2,10 +2,15 @@ import { navLinks } from "../../constants";
 import { logo } from "../../assets";
 import NavbarItems from "./NavbarItems";
 import { useState } from "react";
+import { useEffect } from "react";
 
 export default function Navbar() {
   const [active, setActive] = useState("Home");
   // const [isMenuOpen, setIsMenuOpen] = useState(true)
+
+  useEffect(() => {
+    setActive("Home");
+  }, []);
 
   const handleChange = (id) => {
     setActive(id);
